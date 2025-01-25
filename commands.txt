@@ -1,0 +1,3 @@
+conda create --name mlops python==3.10 -y
+conda activate mlops
+pip install --upgrade pip
