@@ -1,3 +1,6 @@
 conda create --name mlops python==3.10 -y
 conda activate mlops
 pip install --upgrade pip
+
+
+dvc remote add -d myremote s3://bucket
